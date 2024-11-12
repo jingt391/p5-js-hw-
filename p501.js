@@ -61,7 +61,7 @@ class Particle {
     }
     
     function draw() {
-      background('#4f2f6f');
+      background('#4f23f0f');
       for(let i = 0;i<particles.length;i++) {
         particles[i].createParticle();
         particles[i].moveParticle();
